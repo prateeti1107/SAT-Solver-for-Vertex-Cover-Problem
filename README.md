@@ -5,9 +5,11 @@ The project is to help the local police department of Waterloo with their instal
 The basic functionalities implemented in the below files are explained below:
 
 Graph.h - This is the header file for the corresponding cpp file Graph.cpp
+
 Graph.cpp - This c++ file is responsible for generating the graph by constructing nodes and edges
 
 VertexCoverAlgo.h - This is the header file for corresponding cpp file VertexCoverAlgo.cpp
+
 VertexCoverAlgo.cpp - Three differenet approximation algorithms(CNF-SAT, APPROX_VC_1 and APPROX_VC_2) are written in this file for finding the Vertex Cover of a given graph
 
 prj-ece650.cpp - This is the main C++ file. It divides the program into different threads and runs the three different algorithms for finding the vertex cover.
